@@ -40,7 +40,7 @@ SSNs:
 		return """
 <h1>ULTRA SECRET SERVICE</h1>
 <h3>only host this service api on localhost to make sure we dont expose our proprietary data to external competitors</h3>
-<p>to use this API, pass the auth as a GET param.</p>
+<p>to use this API, pass the secret value as a GET parameter named "auth".</p>
 		"""
 
 
