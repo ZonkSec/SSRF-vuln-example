@@ -1,0 +1,12 @@
+version: '3'
+services:
+ external:
+   image: external
+   build: ./external
+   container_name: external
+   ports:
+    - "2000:80"
+ internal:
+   image: internal
+   build: ./internal
+   container_name: internal
