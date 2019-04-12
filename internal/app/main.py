@@ -13,7 +13,7 @@ def hello():
 		if auth in ids:
 			message = "auth recognized!"
 			return render_template_string("""
-<h1>ULTRA SECRET DINO DNA SERVICE</h1>
+<h1>ULTRA SECRET SERVICE</h1>
 <h3>only host this service api on localhost to make sure we dont expose our proprietary dino DNA to external competitors</h3>
 			
 {{message}}
